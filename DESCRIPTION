@@ -1,0 +1,13 @@
+Package: territorio
+Type: Package
+Title: Agrupamentos territoriais do SUS
+Version: 0.1.0
+Author: Jo Mateix
+Maintainer: Fúlvio B. Nedel <fulvio.nedel@ufsc.br>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Depends: R (>= 2.10)
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
