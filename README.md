@@ -51,6 +51,8 @@ O pacote `territorio` contém dois objetos:
   
   - Criar um `data frame` com os municípios do Paraná (opção ainda não implementada na função `territorio`):
   
+        pr = droplevels(territorio::regiao[territorio::regiao$CO_UF == 41, ]) # ou
+        library(territorio)
         pr = droplevels(regiao[regiao$CO_UF == 41, ])
 
 ### Nota
