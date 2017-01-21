@@ -3,7 +3,7 @@ Divisões administrativas e de saúde do SUS
 
 ### Apresentação
 
-Pacote em **R** para a classificação dos municípios brasileiros segundo sua divisão territorial no ano de 2012, apresentando o nome do município. É particularmente voltado ao trabalho com as bases de dados disponibilizadas pelo Departamento de Informática do SUS (DATASUS), do Ministério da Saúde do Brasil. O SUS é o Sistema Único de Saúde brasileiro.
+Pacote em **R** para a classificação dos municípios brasileiros segundo sua divisão territorial no ano de 2012, apresentando o nome do município e das regiões a que pertencem. É particularmente voltado ao trabalho com as bases de dados disponibilizadas pelo Departamento de Informática do SUS (DATASUS), do Ministério da Saúde do Brasil. O SUS é o Sistema Único de Saúde brasileiro.
 
 O pacote `territorio` apresenta a lista de todos os municípios brasileiros, com seu 
   - código do IBGE
