@@ -55,7 +55,7 @@ O pacote `territorio` contém dois objetos:
 
 ### Nota
 
-A base de dados `regiao` contém todos os municípios da federação e pode assim ser subdividida das mais variadas formas, de acordo com o interesse do usuário. As mais frequentes, nos estudos sobre o SUS, me parecem ser a seleção por estado e a classificação por região de saúde. A função `territorio` foi desenvolvida para facilitar essas seleções. Entretanto, por enquanto ela permite apenas a seleção de municípios do Rio Grande do Sul ou de Santa Catarina (obviamente por interesses pessoais, o pacote foi desenvolvido especialmente para minhas/meus alun@s).
+A base de dados `regiao` contém todos os municípios da federação e pode assim ser subdividida das mais variadas formas, de acordo com o interesse do usuário. As mais frequentes, nos estudos sobre o SUS, me parecem ser a seleção por estado e a classificação por região de saúde. A função `territorio` foi desenvolvida para facilitar essas seleções. Entretanto, por enquanto ela permite apenas a seleção de municípios do Rio Grande do Sul ou de Santa Catarina (obviamente por interesses pessoais, o pacote foi desenvolvido especialmente para minhas/meus alun@s ;-) ).
 
 ### TODO
 
