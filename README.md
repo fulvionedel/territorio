@@ -30,9 +30,10 @@ O pacote `territorio` pode ser instalado no **R** através do pacote `devtools`,
 
 O pacote `territorio` contém quatro objetos:
   - `regiao` Base de dados com as informações
-  - `macsaude` Função para nomear as Macrorregiões de Saúde
-  - `regional` Função para nomear as Regiões de Saúde
-  - `territorio` Função para a seleção das informações por Estado   
+  - `macsaude` Função para nomear as Macrorregiões de Saúde
+  - `regional` Função para nomear as Regiões de Saúde
+  - `territorio` Função para a seleção das informações por Estado   
+  
   
 ***Fonte dos dados:*** ftp://ftp.datasus.gov.br/territorio/tabelas/base_territorial.zip
 
