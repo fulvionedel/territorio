@@ -54,10 +54,12 @@ O pacote `territorio` contém dois objetos:
         pr = droplevels(territorio::regiao[territorio::regiao$CO_UF == 41, ]) # ou
         library(territorio)
         pr = droplevels(regiao[regiao$CO_UF == 41, ])
-
+  
+  Ou seja, para uma seleção ainda não implementada na função `territorio`, pode-se dispensar a função e usar diretamente a base de dados `regiao`.  
+  
 ### Nota
 
-A base de dados `regiao` contém todos os municípios da federação e pode assim ser subdividida das mais variadas formas, de acordo com o interesse do usuário. As mais frequentes, nos estudos sobre o SUS, me parecem ser a seleção por estado e a classificação por região de saúde. A função `territorio` foi desenvolvida para facilitar essas seleções. Entretanto, por enquanto ela permite apenas a seleção de municípios do Rio Grande do Sul ou de Santa Catarina (obviamente por interesses pessoais, o pacote foi desenvolvido especialmente para minhas/meus alun@s ;-) ).
+A base de dados `regiao` contém todos os municípios da federação e pode assim ser subdividida das mais variadas formas, de acordo com o interesse do usuário. As mais frequentes, nos estudos sobre o SUS, me parecem ser a seleção por estado e a classificação por região de saúde. A função `territorio` foi desenvolvida para facilitar essas seleções. Entretanto, por enquanto ela permite apenas a seleção de municípios do Rio Grande do Sul ou de Santa Catarina (obviamente por interesses pessoais, o pacote foi desenvolvido especialmente para @s alun@s ;-) ).
 
 ### TODO
 
