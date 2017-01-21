@@ -4,9 +4,14 @@ Title: Agrupamentos territoriais do SUS
 Version: 0.1.0
 Author: Fúlvio B. Nedel
 Maintainer: Fúlvio B. Nedel <fulvio.nedel@ufsc.br>
+<<<<<<< Updated upstream
 Description: Classifica os municípios brasileiros nas divisões territoriais usadas pelo DATASUS.
+=======
+Description: Provides a data set with the Brazilian municipalities, their bouderies in geographic coordinates and territory division to which municipality belongs, and functions to work with.
+>>>>>>> Stashed changes
 Depends: R (>= 2.10)
 License: GPL (>=2)
+Imports: foreign
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1

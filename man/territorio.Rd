@@ -14,11 +14,33 @@ territorio(local = "SC", ano = 2012, tipo = "curto")
 \item{tipo}{"curto" (padrão) retorna um banco com oito variáveis, qualquer outra opção (deve ir entre aspas, simples ou duplas) retorna um banco com 30 variáveis}
 }
 \description{
-Classifica os municípios brasileiros em divisões administrativas e de saúde segundo as listas do DATASUS
+Classifica os municípios brasileiros em divisões territoriais do IBGE usadas pelos Sistemas de Informação do SUS
 }
 \note{
 O arquivo na "Transferência de arquivos" ou no servidor `ftp` do DATASUS fala em "base territorial 2005", mas inclui um município criado em 2009 e cinco em 2013. Esses municípios podem ser excluídos com o argumento `ano` (v. `Arguments`).
+}
+\examples{
+# Criar um data frame com todos os municípios brasileiros:
+brasil = territorio::territorio(local = " ")
+str(brasil)
 
-No momento a função tá pensada pra trabalhar com os municípios de Santa Catarina em 2012.
+# Criar um data frame com os municípios de Santa Catarina:
+sc = territorio::territorio() # ou
+# sc = territorio::territorio(local = "SC")
+str(sc)
+
+# Criar um data frame com os municípios do Rio Grande do Sul:
+rs = territorio::territorio(local = "RS")
+str(rs)
+
+# Criar um data frame com os municípios do Paraná:
+# Como a opção local = "PR" ainda não implementada,
+# dispensa-se a função e usa-se diretamente o banco de
+# dados regiao para a seleção desejada:
+pr = territorio::regiao[territorio::regiao$CO_UF == 41, ] # ou
+# library(territorio)
+# pr = regiao[regiao$CO_UF == 41, ]
+str(pr)
+
 }
 

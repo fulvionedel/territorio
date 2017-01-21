@@ -4,7 +4,7 @@
 \name{regiao}
 \alias{regiao}
 \title{Dados territoriais do SUS}
-\format{An object of class \code{data.frame} with 5631 rows and 30 columns.}
+\format{An object of class \code{data.frame} with 5631 rows and 34 columns.}
 \usage{
 regiao
 }
