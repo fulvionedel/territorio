@@ -28,10 +28,12 @@ O pacote `territorio` pode ser instalado no **R** através do pacote `devtools`,
 
 ### Conteúdo
 
-O pacote `territorio` contém dois objetos:
+O pacote `territorio` contém quatro objetos:
   - `regiao` Base de dados com as informações
-  - `territorio()` Função para a seleção das informações por Estado   
-
+  - `macsaude` Função para nomear as Macrorregiões de Saúde
+  - `regional` Função para nomear as Regiões de Saúde
+  - `territorio` Função para a seleção das informações por Estado   
+  
 ***Fonte dos dados:*** ftp://ftp.datasus.gov.br/territorio/tabelas/base_territorial.zip
 
 ### Exemplos de uso
@@ -57,6 +59,15 @@ O pacote `territorio` contém dois objetos:
   
   Ou seja, para uma seleção ainda não implementada na função `territorio`, pode-se dispensar a função e usar diretamente a base de dados `regiao`.  
   
+  - Acrescentar o nome da Macrorregião ou da Regiao de Saúde a uma base de dados com municípios brasileiros:
+      
+      1. Crie uma variável de nome `CO_MUNICIP` com o código IBGE do município
+      - Aplique as funções `macsaude` ou `regional` sobre a base de dados:
+      
+            base = macsaude(basededados) # Acrescenta o nome da Macrorregião de Saúde
+            base = regional(basededados) # # Acrescenta o nome da Região de Saúde
+            base = macsaude(regional(basededados)) # Acrescenta o nome da Macrorregião e da Região de Saúde
+          
 ### Nota
 
 A base de dados `regiao` contém todos os municípios da federação e pode assim ser subdividida das mais variadas formas, de acordo com o interesse do usuário. As mais frequentes, nos estudos sobre o SUS, me parecem ser a seleção por estado e a classificação por região de saúde. A função `territorio` foi desenvolvida para facilitar essas seleções. Entretanto, por enquanto ela permite apenas a seleção de municípios do Rio Grande do Sul ou de Santa Catarina (obviamente por interesses pessoais, o pacote foi desenvolvido especialmente para @s alun@s ;-) ).
