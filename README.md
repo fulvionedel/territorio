@@ -1,5 +1,5 @@
 # territorio
-Divisões administrativas e de saúde do SUS
+Divisões territoriais brasileiras usadas pelo DATASUS.
 
 ### Apresentação
 
