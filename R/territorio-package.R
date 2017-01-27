@@ -1,6 +1,6 @@
 #' territorio: Brazilian administrative and health divisions
 #'
-#' The territorio package provides a data set with the Brazilian municipalities, their bounderies in geographic coordinates and the administrative and health division to which municipality belongs, and a function to subset the municipalities by State.
+#' The territorio package provides a data set with the Brazilian municipalities, their geographic coordinates and the regional division to which municipality belongs, and a function to subset the municipalities by State.
 #'
 #' @section Package objects:
 #'  \itemize{
